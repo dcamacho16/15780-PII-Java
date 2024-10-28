@@ -9,5 +9,7 @@ public class Alphabet
     System.out.println("The index of the character Z is " + alphabet.indexOf('Z'));
     System.out.println("The hash code for this string is "
       + alphabet.hashCode()); 
+    
+    String 
   }
 }

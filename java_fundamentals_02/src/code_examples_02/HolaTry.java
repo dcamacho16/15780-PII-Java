@@ -2,7 +2,7 @@ package code_examples_02;
 import java.io.*; //Se utiliza para importar la libreria y todos sus paquetes.
 
 class HolaTry {
-	public static void main(String[] args) throws IOException { // Utilizamos una excepcion de entrada y salida
+	public static void main(String[] args) { // Utilizamos una excepcion de entrada y salida
 		InputStreamReader reader;
 		reader = new InputStreamReader(System.in);
 		BufferedReader input = new BufferedReader(reader);
