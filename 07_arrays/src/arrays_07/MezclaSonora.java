@@ -8,9 +8,9 @@ package arrays_07;
 	//dentro del bucle la operacion muestra
 	// Devolver salida (return salida)
 public class MezclaSonora {
-	static short[] mezclador(short[] audio1, float ganancia1, short[] audio2, float ganancia2, short[] audio3, float ganancia3) 
+	//static short[] mezclador(short[] audio1, float ganancia1, short[] audio2, float ganancia2, short[] audio3, float ganancia3) 
 	// Determinamos la longitud del array con más componentes
-	int longtotal[] = Math.max
+	//int longtotal[] = Math.max
 
 	static void print(short[] u, String id)
 		  { for (int i=0; i<u.length; i++) {
@@ -26,7 +26,7 @@ public class MezclaSonora {
 		print(a2, "a2");
 		short[] a3 = { 100, 100, 100 };
 		print(a3, "a3");
-		short[] mezcla;
+		//short[] mezcla;
 		/*mezcla = mezclador(a1, 1, a2, 1, a3, 0);
 		print(mezcla, " mezcla (a1+a2)/2 ");
 		mezcla = mezclador(a1, 2, a2, 1, a3, 0);
